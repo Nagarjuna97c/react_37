@@ -1,0 +1,47 @@
+.main-container {
+  background-color: #161625;
+  min-height: 100vh;
+  padding: 30px 10%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.loading-container {
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.website-logo {
+  height: 60px;
+}
+
+.title {
+  color: #2cc6c6;
+}
+
+.description-title {
+  color: #cbd5e1;
+}
+
+.failure-container {
+  align-self: center;
+}
+
+.failure-image {
+  height: 500px;
+}
+
+.failure-text {
+  color: #ffffff;
+  text-align: center;
+  margin-top: 30px;
+}
